@@ -1,0 +1,38 @@
+/* auth-specific styling */
+.auth-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  background: linear-gradient(180deg, #f3fbf3, #ffffff);
+}
+
+.auth-page .card {
+  max-width: 520px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.92));
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(31,111,63,0.06);
+}
+
+.auth-page h2 {
+  margin-bottom: 18px;
+}
+
+.auth-page p {
+  color: var(--muted);
+  min-height: 26px;
+}
+
+.auth-page a {
+  color: var(--primary);
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.auth-page a:hover {
+  text-decoration: none;
+  opacity: 0.86;
+}
